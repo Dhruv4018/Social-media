@@ -3,7 +3,7 @@ import { MdOutlineKeyboardBackspace } from "react-icons/md";
 import { useNavigate } from 'react-router-dom';
 import { GoSearch } from "react-icons/go";
 import { useDispatch, useSelector } from 'react-redux';
-import OnlineUser from '../components/onlineUser';
+import OnlineUser from '../components/OnlineUser';
 import { setSelectedUser } from '../redux/messageSlice';
 import dp from "../assets/dp.webp"
 function Messages() {

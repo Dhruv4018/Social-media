@@ -29,8 +29,7 @@ const userSchema=new mongoose.Schema({
         type:String
     },
     gender:{
-        type:String,
-        enum:["male","female"]
+        type:String
     },
     followers:[
     {  type:mongoose.Schema.Types.ObjectId,
