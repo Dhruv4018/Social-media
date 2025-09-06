@@ -14,7 +14,7 @@ dotenv.config()
 
 const port=process.env.PORT || 5000
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://social-frontend-6xwa.onrender.com",
     credentials:true
 }))
 app.use(express.json())
@@ -32,4 +32,5 @@ server.listen(port , ()=>{
     connectDb()
     console.log("server started")
 })
+
 
